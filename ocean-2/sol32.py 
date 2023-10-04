@@ -1,0 +1,5 @@
+n = int(input())
+
+from random import random 
+
+L = [random.randint(1,1000) for i in range(n)]
